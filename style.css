@@ -1,70 +1,144 @@
-#Banner {
-	width: 1000px;
-	height:auto;
-	background-color:#09F;
-	padding: 10px;
-	margin-bottom: 10px;
-	margin-top: 5px;
-}
-#Button {
-	width: 1000px;
+#web {
+	width: 1280px;
 	height: auto;
-	background-color:#0FF;
-	padding: 10px;
-}
-#Table {
-	width: 1000px;
-	height: auto;
-	background-color:#FFF;
-	padding-left: 10px;
-}
-#Thumnail {
-	width: 1000px;
-	height: auto;
-	background-color: #0EE;
-	padding-bottom: 8px;
-	padding-top: 5px;
-	padding-left: 10px;
-	margin-bottom: 10px;
-}
-
-div#wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1000px;
-    height: auto;
 }
 
-#navbar {
-	background-color: #DCDCDC;
-	font-size: 20px;
+
+#Banner {
+	width: auto;
+	height: 200px;
+	background-color:#00CED1;
 	text-align: center;
-	width: 1000px;
-	
-	margin: 5px;
-	position: fixed;
-
-
+	padding: 15px;
 }
-#navbar ul {
-	list-style-type: none;
-	padding-left: 0px;
+#navbar {
+	font-size: 20px;
+	width:auto;
+	height:auto;
+	background-color:#DCDCDC;
+	padding: 2px;
+	margin-top: 5px;
+
+
 }
 #navbar ul li {
+	margin-left: 8px;
+	list-style-type: none;
 	display: inline;
-	margin: 10px;
+	padding-left: 0px;
+	padding: 2px;
 
 }
 #navbar ul li a {
 	text-decoration: none;
-	color: #778899;
-	padding: 5px 10px;
+	padding: 10px 10px;
 	border-radius: 5px;
 	transition: color 1s, background 1s ;
 
 }
 #navbar ul li a:hover {
-		color: #FFF;
-		background-color: #555;
+	color:#F0F8FF;
+	background-color:#000000;
+}
+#buttons {
+	background-color: #B0C4DE;
+	margin-top: 5px;
+	height: 300px;
+	width: auto;
+}
+#table {
+	background-color:#F5DEB3;
+	width: auto;
+	height: 500px;
+	padding: 5px;
+	margin-top: 5px;
+}
+div#trai {
+	width: 49%;
+	height: auto;
+	float: left;
+	
+}
+div#phai {
+	width: 49%;
+	height: auto;
+	float: right;
 
+}
+#thumnails {
+	width: auto;
+	height:auto;
+	background-color: #ADD8E6;
+	margin-top: 5px;
+	padding: 10px;
+	text-align:center;
+}
+#form {
+	width: auto;
+	height: 350px;
+	background-color:#E9967A;
+	margin-top: 5px;
+	padding: 10px;
+}
+div#buttons-left {
+	width: 19%;
+	height:290px;
+	float: left;
+	list-style-type: none;
+	background-color: #F0F8FF;
+	padding-top: 10px;
+	padding-left: 0px;
+}
+div#buttons-right {
+	width: 80%;
+	height: 290px;
+	float: left;
+	background-color:#008B8B;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+div#buttons-left ul li a {
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 10px 10px;
+	font-size: 20px;
+
+}
+div#buttons-left ul li {
+	list-style-type: none;
+	padding:7px 0px;
+}
+div#buttons-left ul li a:hover {
+	color:#F0F8FF;
+	background-color:#000000;
+}
+#navbar form {
+	float: right;
+}
+#footer {
+	text-align: center;
+	width: auto;
+	height: auto;
+	background-color: #FFEBCD;
+}
+
+#Reponsion {
+	width: auto;
+	height: 500px;
+	background-color: #8FBC8F;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 5px;
+	text-align: center;
+	color: #FF4500;
+
+}
+#media {
+	width: auto;
+	height: 500px;
+	background-color: #F5FFFA;
+	margin-top: 5px;
+	padding: 10px;
 }
